@@ -14,7 +14,7 @@ A publishing-as-a-service platform that enables Japanese senior writers to publi
 │  │                      │          │                          │     │
 │  │  - OTP login         │          │  - Email + password + 2FA│     │
 │  │  - Onboarding form   │          │  - Manuscript checklist  │     │
-│  │  - Google Doc viewer  │          │  - Metadata review      │     │
+│  │  - Google Doc link     │          │  - Metadata review      │     │
 │  │  - Status tracker    │          │  - Cover PDF preview    │     │
 │  │  - 「完成しました」 btn│          │  - Pipeline trigger      │     │
 │  └──────────┬───────────┘          └────────────┬─────────────┘     │
@@ -75,7 +75,7 @@ A minimal, large-font Japanese UI optimized for seniors with basic PC skills.
 | `/` | Email input → OTP request |
 | `/verify` | 4-digit OTP entry |
 | `/onboarding` | Basic info form (name, pen name, title, description, email, consent) |
-| `/write` | Authenticated view embedding Google Doc + 「完成しました」button |
+| `/write` | Google Doc link (opens in new tab) + status indicator + 「完成しました」button |
 | `/status` | Visual step-by-step progress tracker for the senior's manuscript |
 
 **Key constraints:**
